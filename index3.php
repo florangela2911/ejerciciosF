@@ -16,7 +16,7 @@ while ($i <= 15):
   echo  $i++ . ',';
     endwhile;
 
-'<br>';
+ echo '<br>';
 
 //do-while
 //Garantiza que las declaraciones dentro del ciclo se ejecutaran al menos una vez//
@@ -25,8 +25,9 @@ $i =  25;
 do {
     echo $i++;
 } while ($i <= 15);
-'<br>';
+ echo '<br>';
 
+ //
 //for
 $text = ['a', 'b', 'c', 'd' ];
 $length = count($text);
@@ -52,5 +53,3 @@ if (is_array($value)) {
     echo $value;
 }
 echo '<br>';
-
-endforeach;
